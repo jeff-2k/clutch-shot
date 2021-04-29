@@ -17,7 +17,7 @@ function NavBar (){
 </nav>
 <header>
   <div className='header-container img-fluid'>
-  <img src={HeroImage} alt='hero-image-damian-lillard'/>
+  <img src={HeroImage} alt='background-damian-lillard'/>
   </div>
 </header>
 </div>
