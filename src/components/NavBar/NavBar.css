@@ -1,0 +1,43 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+
+.navbar {
+   background-color: #2D2C44;
+   padding: 0;
+   padding-right: -10%;
+   width: 100vh;
+}
+
+.navbar .container-fluid{
+    padding-left: 5%;
+    padding-right: -10%;
+    margin-top: 0;
+
+}
+
+.navbar img{
+  
+    min-height: 55px;
+    padding-bottom: 0px;;
+}
+
+.navbar span {
+    font-size: xx-large;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+}
+
+.navbar border-bottom {
+    color: #18C46E;
+}
+
+.header-container img {
+    width: 100vw;
+    height: auto;
+}
+

@@ -1,0 +1,16 @@
+.card {
+    box-shadow: -5px 8px 8px #2d2c4483;
+    border-color: white;
+    
+}
+
+.card-body {
+    height: 30px;
+    
+}
+
+
+.card .list-group{
+    border-color: #18C46E;
+}
+
