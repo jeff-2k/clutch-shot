@@ -11,13 +11,13 @@ function NavBar (){
   <div className="container-fluid">
     <Link to={'/'}>
     <span className="navbar-brand mt-3">Clutch Shot</span>
-    <img src={Logo} alt='logo' />
+    <img src={Logo} alt='logo-clutch-shot' />
     </Link>
   </div>
 </nav>
 <header>
   <div className='header-container img-fluid'>
-  <img src={HeroImage} alt='hero-image'/>
+  <img src={HeroImage} alt='hero-image-damian-lillard'/>
   </div>
 </header>
 </div>

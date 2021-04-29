@@ -45,7 +45,7 @@ class SearchPlayer extends React.Component {
         try {
             const response = await axios.get(`https://nba-players.herokuapp.com/players/${this.state.playerStats['last_name']}/${this.state.playerStats['first_name']}`)
             // console.log(response.config.url)
-            this.setState({ playerPic: response.config.url.toLowerCase(),... this.state.playerStats })
+            this.setState({ playerPic: response.config.url.toLowerCase(), ...this.state.playerStats })
         } catch(err) {
             console.error(err)
         }

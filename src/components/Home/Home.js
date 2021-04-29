@@ -1,7 +1,6 @@
 import React from 'react' 
 import { Link } from 'react-router-dom'
 import './Home.css'
-import AllTeams from '../AllTeams/AllTeams'
 import SearchPlayer from '../Search/SearchPlayer'
 
 
