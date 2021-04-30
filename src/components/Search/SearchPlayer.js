@@ -116,12 +116,12 @@ class SearchPlayer extends React.Component {
             />
             </div>
 
-            {/* {this.state.playerStats.first_name &&  this.state.playerStats.min ? <PlayerVideo
+            {this.state.playerStats.first_name &&  this.state.playerStats.min ? <PlayerVideo
             state={this.state}
             handleChange={this.handleChange}
             handleSubmit={this.handleSubmit}
              />
-             : ''}  */}
+             : ''} 
             </div>
             
         )
