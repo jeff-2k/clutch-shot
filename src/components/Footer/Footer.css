@@ -19,5 +19,9 @@ p {
 }
 
 a img {
-    max-height: 30px;
+    max-height: 40px;
+}
+
+.github-ancor img{
+    max-height: 90px
 }

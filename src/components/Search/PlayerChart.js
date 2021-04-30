@@ -39,13 +39,6 @@ class PlayerChart extends React.Component{
     if(prevState.label !== this.state.label){
         this.renderChart()
     }
-    //    try{
-    //        const response = `https://www.balldontlie.io/api/v1/season_averages?season=2020&player_ids[]=${this.state.playerStats}`
-    //        console.log(response)
-    //     this.renderChart()
-    //    } catch(err){
-    //        console.error(err)
-    //    }
     }
 
     renderChart = () => {

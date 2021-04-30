@@ -2,6 +2,8 @@ import React from 'react'
 import nbaAllTeams from '../Images/nba-all-teams.png'
 // import axios from 'axios'
 
+// ------ FOR INCREMENT MORE INFOS IN THE FUTURE
+
 // class AllTeams extends React.Component{
 //     state = {
 //         teams: [],

@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavBar.css'
+
 import { Link } from 'react-router-dom'
 import Logo from '../Images/clutch-shot-logo-01.png'
 import HeroImage from '../Images/hero-image-01.png'
