@@ -35,15 +35,15 @@ function PlayerVideo (props) {
   let videoId = `${video}`;
 
   return (
-    <div className="responsive-video mt-5">
+    <div className="responsive-video mt-5 container-fluid">
       <h3 style={{fontSize:'2.5rem' , fontWeight:'bold'}}>{props.state.playerStats['first_name']} {props.state.playerStats['last_name']} Highlights</h3>
       {video ? (
         <iframe
           title={searchTerm}
-          className="video-frame mt-2"
+          className="video-frame mt-2 container-fluid"
           src={`https://www.youtube.com/embed/${videoId}?rel=0&vq=hd720&modestbranding=1&autoplay=0&controls=2`}
           frameBorder="0"
-          width="800px" height="500px"
+          width="700px" height="800px"
           
         ></iframe>
       ) : (

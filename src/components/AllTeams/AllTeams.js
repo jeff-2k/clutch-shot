@@ -41,8 +41,8 @@ import nbaAllTeams from '../Images/nba-all-teams.png'
 
 function AllTeams () {
     return (
-        <div className='allTeams-container'>
-            <img src={nbaAllTeams} alt='NBA-all-teams' className='NBA-all-teamns-photo vw-100 vh-100 container-fluid'/>
+        <div className='allTeams-container container-fluid img-fluid'>
+            <img src={nbaAllTeams} alt='NBA-all-teams' className='NBA-all-teamns-photo vw-100 vh-100 container-fluid img-fluid'/>
         </div>
     )
 }

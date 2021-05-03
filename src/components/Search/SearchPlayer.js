@@ -99,21 +99,24 @@ class SearchPlayer extends React.Component {
             </form>
             </div>
             
-            <div className='player-info mt-5 mb-5 mx-5 d-flex justify-content-between  flex-wrap h-25'>
-                <br/>
+            <div className='player-info container-fluid row mt-5 mb-5 mx-5 d-flex justify-content-center align-items-center  flex-wrap h-25'>
+             <div className='col p-0 ps-0'>
+              <br/>
             {this.state.playerStats.first_name &&  this.state.playerStats.min ?  <PlayerDetails 
             state={this.state}
             handleChange={this.handleChange}
             handleSubmit={this.handleSubmit}
             /> 
         : ''}
-    
+            </div>
             
+            <div className='col'>
            <PlayerChart 
            state={this.state}
            handleChange={this.handleChange}
            handleSubmit={this.handleSubmit}
             />
+            </div>
             </div>
 
             {this.state.playerStats.first_name &&  this.state.playerStats.min ? <PlayerVideo
