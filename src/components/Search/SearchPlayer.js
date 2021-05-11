@@ -86,7 +86,7 @@ class SearchPlayer extends React.Component {
 
             <form onSubmit={this.handleSubmit} className='h-25 d-flex justify-content-center'>
                 <div className="mb-3 d-flex justify-content-center flex-wrap h-25 ">
-                    <label htmlFor="playerNameInput" className="form-label" style={{fontSize:'1.8rem'}}>Please enter players name for see the averages per game.</label>
+                    <label htmlFor="playerNameInput" className="form-label" style={{fontSize:'1.8rem'}}>Please enter player's name to see the averages per game.</label>
                     <br/>
                     <input className="form-control form-control-lg mt-2 " 
                     type="text" 
